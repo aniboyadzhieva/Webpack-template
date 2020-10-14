@@ -1,5 +1,5 @@
-$fontColor: #0091aa;
-$colorHeading: #be4a14;
+$fontColor: #89d0dd;
+$colorHeading: #009;
 #content  // div with id: content
 {
     color: $fontColor;
@@ -10,6 +10,10 @@ h2
     color: $colorHeading;
 }
 
-h1{
-    @extend h2;
+h6 
+{
+color: #009;
 }
+
+tr:nth-child(even) {background: violet;}
+tr:nth-child(odd) {background: pink;}
